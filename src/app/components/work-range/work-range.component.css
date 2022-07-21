@@ -1,0 +1,66 @@
+.block-margin{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.block-margin-top{
+    margin-top: 80px;
+    text-align: center;
+}
+.block-margin-small{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.block-border{
+    border: dashed 1px rgba(165, 42, 42, 0.464);
+    border-radius: 10px;
+}
+h1,h4,h5{
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: dashed 1px rgb(165, 42, 42);
+}
+.img{
+    margin: 20px;
+    max-width: 94%;
+    margin-bottom: 20px;
+    border: solid 2px rgba(165, 42, 42, 0.412);
+    border-radius: 10px;
+}
+.card{
+    margin:10px;
+    border: none;
+    background-color: rgb(33, 24, 23);
+    transition: .3s;
+}
+.card:hover
+ {
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.075), 0 0 30px rgb(132, 69, 57);
+}
+
+.card-footer{
+    border-top: dashed 1px rgba(230, 182, 184, 0.075)
+}
+.figure-block{
+    background-color: rgb(32, 24, 23);
+    height:160px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+.link{
+    font-weight: 400;
+    color: rgb(132, 69, 57);
+    text-decoration: none;
+    transition: .3s ;  
+}
+.link:hover{
+    color: rgb(173, 73, 53);
+    text-decoration: none;
+  
+}

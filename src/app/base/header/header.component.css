@@ -1,0 +1,92 @@
+hr{
+    border-top: 1px dotted brown;
+}
+.navbar{
+    color: rgb(132, 69, 57);
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    top:0px;
+    background-color:rgb(23, 13, 12);
+    border-radius: 2px;
+}
+.container a{
+    color: rgb(132, 69, 57);
+    transition: .3s linear; 
+}
+.container a:hover{
+    color: rgb(173, 73, 53);
+    font-weight: 420;
+}
+.img-fluid{
+    width: 100%;
+    max-height:800px;
+}
+.carousel{
+    margin-top: 57px;
+}
+.figure-form {
+    width: 350px;
+    height: 200px;
+}
+.btn-close{
+    background-image: url('data:image/svg+xml;utf8,<svg stroke="rgb(132, 69, 57)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M1.458 1.458l21.084 21.084m0-21.084L1.458 22.542" /></svg>');
+}
+.container-img {
+    position: relative;
+    text-align: center;
+    color: rgb(134, 20, 20);
+    font-weight: bold;
+}
+.offcanvas{
+    background-color:rgb(23, 13, 12);
+}
+.left-text {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -30%);
+    font-size: xx-large;
+}
+.navbar-toggler-icon{
+    color: rgb(186, 150, 147);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(132, 69, 57)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-toggler .navbar-toggler {
+  border: none;
+  } 
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);;
+   
+}
+    .link :hover {
+        color: rgb(173, 82, 63);
+        border-bottom: solid 2px brown;
+        text-decoration: none;
+        transition: .3s ;   
+    }
+
+    .link ::after {
+        content: "\27F6";
+    }
+    
+.button {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-size: large;
+    width: 230px;
+    height: 30px;
+}
+[type="submit"]:focus, [type="button"]:focus{
+    color: rgb(173, 73, 53);
+    background-color:rgb(23, 13, 12);
+    border: none;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(132, 69, 57);
+}

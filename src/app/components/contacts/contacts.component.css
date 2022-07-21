@@ -1,0 +1,82 @@
+.block-margin{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.block-margin-top{
+    margin-top: 80px;
+}
+.block-margin-small{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.block-height{
+    height: 225px;
+}
+.block{
+    background-color: rgb(32, 24, 23);
+    border-radius: 10px;
+    padding: 10px;
+}
+h1,h4,h5{
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+input{
+    background-color: rgb(22, 13, 12);
+    width: 100%;
+    color: rgb(132, 69, 57);
+    border: none;
+    border-radius: 5px;
+}
+.form-control:focus {
+    border: 1px solid rgb(132, 69, 57);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(132, 69, 57);
+}
+input:focus{
+    background-color: rgb(33, 24, 23);
+    height: 36px;
+    color: rgb(132, 69, 57);
+}
+button{
+    color: rgb(132, 69, 57);
+    margin-bottom: 14px;
+    background-color: rgb(32, 24, 23);
+    margin-top: 20px;
+    border: none;
+    transition: .3s;
+}
+input:hover{
+    border-radius: 5px;
+    border-collapse: collapse;
+    box-shadow: 0 3px 6px -2px rgb(132, 69, 57);
+}
+button:hover{
+    color: rgb(173, 73, 53);
+    background-color: rgb(32, 24, 23);
+}
+.centre{
+    text-align: center;
+}
+iframe{
+    filter:sepia(5%) grayscale(30%);
+}
+.figure-block{
+    background-color: rgb(32, 24, 23);
+    height:160px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+.link{
+    font-weight: 400;
+    color: rgb(132, 69, 57);
+    text-decoration: none;
+    transition: .3s ;  
+}
+.link:hover{
+    color: rgb(173, 73, 53);
+    text-decoration: none;
+  
+}

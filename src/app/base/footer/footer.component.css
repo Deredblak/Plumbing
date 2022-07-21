@@ -1,0 +1,44 @@
+.footer{
+    background-color:rgb(23, 13, 12);
+    color: rgb(132, 69, 57);
+}
+input{
+    background-color: rgb(33, 24, 23);
+    color: rgb(132, 69, 57);
+    border: none;
+    transition: .3s;
+}
+input:focus{
+    height: 36px;
+    background-color: rgb(33, 24, 23);
+    color: rgb(132, 69, 57);
+}
+input:hover{
+    border-radius: 5px;
+    border-collapse: collapse;
+    box-shadow: 0 3px 6px -2px rgb(132, 69, 57);
+    background-color:rgb(33, 24, 23);
+}
+.form-control:focus {
+    border: 1px solid rgb(132, 69, 57);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(132, 69, 57);
+}
+input::placeholder{
+    color: rgba(132, 70, 57, 0.459);
+}
+button{
+    color: rgb(132, 69, 57);
+    border:none;
+    transition: .3s;
+    outline:none;
+}
+button:hover{
+    color: rgb(173, 73, 53);
+    background-color:rgb(23, 13, 12);
+}
+[type="submit"]:focus, [type="button"]:focus{
+    color: rgb(173, 73, 53);
+    background-color:rgb(23, 13, 12);
+    border: none;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(132, 69, 57);
+}
